@@ -1,3 +1,5 @@
+USE memory.default;
+
 CREATE TABLE EMPLOYEE (
     employee_id TINYINT,
     first_name VARCHAR,

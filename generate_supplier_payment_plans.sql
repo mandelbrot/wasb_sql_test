@@ -2,6 +2,8 @@
 
 -- TODO: didn't have the time to rewrite the query to Trino SQL, but I would do it with cursor, so here is the pseudocode
 
+USE memory.default;
+
 DO $$
 DECLARE
     r RECORD;

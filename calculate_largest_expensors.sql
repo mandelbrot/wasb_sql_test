@@ -1,3 +1,5 @@
+USE memory.default;
+
 WITH ExpenseAccounts AS (
 	SELECT 
 		e.employee_id,

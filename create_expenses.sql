@@ -1,3 +1,5 @@
+USE memory.default;
+
 CREATE TABLE expense(
     employee_id TINYINT,
     unit_price DECIMAL(8, 2),

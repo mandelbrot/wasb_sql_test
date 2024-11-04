@@ -1,4 +1,6 @@
 -- Find cycles in the manager-employee relationships
+USE memory.default;
+
 WITH RECURSIVE EmployeeHierarchy(employee_id, manager_id, cycle_path) AS (
     SELECT 
         employee_id,
